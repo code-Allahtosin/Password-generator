@@ -67,9 +67,11 @@ button{
 }
 
 #thin-line{
-    width: 446px;
+    min-width: 380px;
+    max-width: 446px;
     height: 0px;
     margin: 30px 0px;
+    padding-inline-end: 20px;
     border: 1px solid #D5D4D8;
 }
 
